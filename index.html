@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/ICON.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./aux.css">
+    <title>HIVEND® Sitio Web Oficial</title>
+  </head>
+  <body>
+    <header>
+      <nav class="bg-gray-200">
+        <div class="flex justify-between p-6 content-center">
+          <div class="md:hidden flex">
+            <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                id="menu-button"
+                class="h-6 w-6 cursor-pointer outline-none"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="hidden md:flex content-center">
+            <div class="flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+              <a href="" class="text font-fuentePrincipal ml-1">Ecuador</a>
+            </div>
+          </div>
+
+          <div class="uppercase">
+            <h1
+              class="text-3xl sm:text-4xl md:text-4xl ml-8 md:ml-0 sm:mr-2 md:mr-5 font-fuentePrincipal font-normal"
+            >
+              hivend
+            </h1>
+          </div>
+
+          <div class="flex content-center">
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 mr-3 md:h-6 md:w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 ml-3 md:h-6 md:w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!---->
+        <ul id="menu" class="  md:flex justify-center absolute md:static bg-gray-200 w-full">
+          <li class="enlaces" ><a href="#">Inicio</a></li>
+          <li class="enlaces"><a href="#">Categoría</a></li>
+          <li class="enlaces"><a href="#">Sobre nosotros</a></li>
+          <li class="enlaces"><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+
+
+      <div class=" ">
+        <img
+        src="./images/slide1.jpeg"
+        alt=""
+        class="w-full md:h-sizeBg object-cover "
+      />
+      </div>
+     
+    </header>
+
+    <main>
+      <!--MAIN CARDS-->
+      <div class="cards m-3 mt-3 pt-8 lg:pb-6 flex flex-col lg:flex-row lg:justify-around items-center bg-slate-200">
+        <!--CARD 1-->
+        <div class="card">
+          <img src="./images/main1.jpeg" alt="" class="" />
+          <p class="mt-4 font-fuentePrincipal text-xl">Colección Urban</p>
+          <a href="" class="btnPrimary">Ver más</a>
+        </div>
+
+        <!--CARD 2-->
+        <div class="card">
+          <img src="./images/main2.jpeg" alt="" />
+          <p class="mt-4 font-fuentePrincipal text-xl">Colección Summer</p>
+          <a href="" class="btnPrimary">Ver más</a>
+        </div>
+
+        <!--CARD 3-->
+        <div class="card">
+          <img src="./images/main3.jpeg" alt="" />
+          <p class="mt-4 font-fuentePrincipal text-xl">Colección Lifestyle</p>
+          <a href="" class="btnPrimary">Ver más</a>
+        </div>
+      </div>
+
+      <!--TARJETAS-GRANDES-->
+      <div class="tarjeta_1 w-full h-48 md:h-img-lg-H flex flex-col justify-center items-center">
+        <h2 class="uppercase text-white font-fuenteSecundaria text-4xl md:text-6xl">Hombre</h2>
+        <a href="" class="btnShop">shop now</a>
+      </div>
+
+      <div class="tarjeta_2 w-full h-48 md:h-img-lg-H flex flex-col justify-center items-center">
+        <h2 class="uppercase text-white font-fuenteSecundaria text-4xl md:text-6xl">Mujer</h2>
+        <a href="" class="btnShop">shop now</a>
+      </div>
+
+      <div class="tarjeta_3 w-full h-48 md:h-img-lg-H flex flex-col justify-center items-center">
+        <h2 class="uppercase text-white font-fuenteSecundaria text-4xl md:text-6xl">Niños</h2>
+        <a href="" class="btnShop">shop now</a>
+      </div>
+      
+
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>

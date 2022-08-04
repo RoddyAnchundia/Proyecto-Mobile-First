@@ -1,0 +1,18 @@
+.tarjeta_1{
+    background-image: url("./images/hombre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top ;
+}
+
+.tarjeta_2{
+    background-image: url("./images/mujer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tarjeta_3{
+    background-image: url("./images/kids.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
