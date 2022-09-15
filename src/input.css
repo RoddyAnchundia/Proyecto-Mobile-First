@@ -25,3 +25,16 @@
 .btnShop{
   @apply m-2 p-2 bg-black rounded-lg text-white uppercase text-sm hover:bg-slate-600
 }
+
+.tarjeta{
+    @apply w-full h-48 md:h-img-lg-H flex flex-col justify-center items-center
+}
+
+.tarjeta h2{
+    @apply uppercase text-white font-fuenteSecundaria text-4xl md:text-6xl
+}
+
+.noticias img{
+    @apply w-36 h-24 object-cover
+}
+
